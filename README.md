@@ -5,8 +5,6 @@
 ![CUDA](https://img.shields.io/badge/CUDA-Enabled-green)
 ![OpenMP](https://img.shields.io/badge/OpenMP-Supported-blue)
 
-This repository contains the implementation of **Project 7: Neural Network Evaluation** developed for the *Modern Computing for Physics* course (Master's Degree in Physics of Data). 
-
 ## Project Objective
 The goal of this project is to implement a simple neural network for a supervised classification problem, focusing on parallelizing the **evaluation phase (forward pass)** using a GPU. Neural network operations (primarily matrix multiplications and element-wise functions) map naturally to parallel architectures, making GPUs critical for achieving high-performance execution.
 
