@@ -6,7 +6,7 @@
 ![OpenMP](https://img.shields.io/badge/OpenMP-Supported-blue)
 
 ## Project Objective
-The goal of this project is to implement a simple neural network for a supervised classification problem, focusing on parallelizing the **evaluation phase (forward pass)** using a GPU. Neural network operations (primarily matrix multiplications and element-wise functions) map naturally to parallel architectures, making GPUs critical for achieving high-performance execution.
+The goal of this project is to parallelize the forward pass of a simple neural network for a supervised classification problem, using a GPU. Neural network operations (primarily matrix multiplications and element-wise functions) map naturally to parallel architectures, making GPUs critical for achieving high-performance execution.
 
 The chosen architecture is a **3-layer Multi-Layer Perceptron (MLP)** (2 hidden layers + output layer) trained on the **MNIST** handwritten digits dataset.
 
